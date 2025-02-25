@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakat Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="font-size: 32px; font-weight: 800; color: #ffdd57; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">JAMIA NOOR UL ISLAM</h1>
+    <div class="caption">
+        <p>🌙 <strong>Assalamu Alaikum! Welcome to the Zakat Calculator</strong></p>
+        <p>💡 Instantly calculate your zakat with ease! Simply enter your **wealth details** (cash, gold, silver, trade goods) along with the latest market rates, and let the calculator handle the rest. No stress, no hassle – just instant results!</p>
+        <p><strong>- M. Saad Farooqi</strong></p>
+    </div>
+    <div class="container">
+        <h2>Zakat Calculator</h2>
+        
+        <input type="number" id="goldWeight" placeholder="Enter Gold Weight (grams)">
+        <input type="number" id="goldPrice" placeholder="Enter Gold Price per gram">
+        <input type="number" id="silverWeight" placeholder="Enter Silver Weight (grams)">
+        <input type="number" id="silverPrice" placeholder="Enter Silver Price per gram">
+        <input type="number" id="cash" placeholder="Enter Cash Amount">
+        <input type="number" id="tradeGoods" placeholder="Enter Trade Goods Value (مالِ تجارت)">
+        <input type="number" id="debt" placeholder="Enter Any Debt Amount (قرض)">
+        <button onclick="calculateZakat()">Calculate Zakat</button>
+        <h2 id="zakatAmount">Zakat Amount: 0.00</h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
